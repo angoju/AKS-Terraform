@@ -10,17 +10,17 @@ vnetcidr = ["10.0.0.0/24"]
 
 subnetcidr = ["10.0.0.0/25"]
 
-keyvault_rg = "aksdemo-rg"
+keyvault_rg = "akssample-rg"
 
-keyvault_name = "aksdemocluster-kv"
+keyvault_name = "akssamplecluster-kv"
 
-azure_region = "australiaeast"
+azure_region = "EastUS"
 
-resource_group = "aksdemocluster-rg"
+resource_group = "akssamplecluster-rg"
 
-cluster_name = "aksdemocluster"
+cluster_name = "akssamplecluster"
 
-dns_name = "aksdemocluster"
+dns_name = "akssamplecluster"
 
 admin_username = "aksuser"
 
