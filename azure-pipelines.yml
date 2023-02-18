@@ -19,14 +19,13 @@ steps:
   displayName: Terraform Plan
   inputs:
     command: 'plan'
-    environmentServiceName: 'sample'
+    environmentServiceName: 'Pay-As-You-Go(6e8ebf37-303f-455a-85b7-87f336229400)'
     allowTelemetryCollection: false
 
 - task: TerraformCLI@0
   displayName: Terraform Apply
   inputs:
     command: 'apply'
-    environmentServiceName: 'sample'
+    environmentServiceName: 'Pay-As-You-Go(6e8ebf37-303f-455a-85b7-87f336229400)'
     allowTelemetryCollection: true
-
 
